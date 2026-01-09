@@ -17,13 +17,13 @@ git branch
 ```
 You should only see a `main` branch right now. To create a new branch named `learn-html` run
 ```
-git branch -c learn-html
+git branch learn-html
 ```
 Now list all the repository branches again
 ```
 git branch
 ```
-Do you see the new `learn-html` branch? Notice that the `main` branch is starred, which means that we're currently working within it. Creating a new branch with `git branch -c` will not automatically switch you into it. 
+Do you see the new `learn-html` branch? Notice that the `main` branch is starred, which means that we're currently working within it. Creating a new branch with `git branch` will not automatically switch you into it. 
 
 To switch into the `learn-html` branch, run
 ```
