@@ -1,28 +1,11 @@
-p,
-.my-class,
-#my-id {
-  color: red;
-}
-body {
-  width: 600px;
-  margin: 0 auto;
-  background-color: #ff9500;
-  padding: 0 20px 20px 20px;
-  border: 5px solid black;
-  padding-top: 0;
-padding-right: 20px;
-padding-bottom: 20px;
-padding-left: 20px;
+html {
+  font-size: 10px;
+  font-family: "Open Sans", sans-serif;
 }
 
-html {
-  background-color: #00539f;
-}
 h1 {
-  margin: 0;
-  padding: 20px 0;
-  color: #00539f;
-  text-shadow: 3px 3px 1px black;
+  font-size: 60px;
+  text-align: center;
 }
 
 p,
@@ -32,8 +15,34 @@ li {
   letter-spacing: 1px;
 }
 
+html {
+  background-color: #00539f;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #ff9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539f;
+  text-shadow: 3px 3px 1px black;
+}
+
 img {
   display: block;
   margin: 0 auto;
-  max-width: 100%;
+}
+
+.quote {
+  color: red;
+}
+
+#mainquote {
+  border: 1px solid black;
 }
